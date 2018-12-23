@@ -1,0 +1,50 @@
+﻿
+@{
+    ViewData["Title"] = "Questions";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<form>
+    
+
+    <div class="container">
+        <h1>Questions</h1>
+
+        @for (int i = 0; i < 5; i++)
+        {
+            <div class="form-group jumbotron">
+                <h3>What is the capital of India?</h3>
+                <div class="row p-3">
+                    <div class="col-xs-12 col-md-6 col-xl-3">
+                        <label class="form-check-label">
+                            <input type="radio" name="answer" class="form-check-input" />
+                            Mumbai
+                        </label>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-xl-3">
+                        <label class="form-check-label">
+                            <input type="radio" name="answer" class="form-check-input" />
+                            Delhi
+                        </label>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-xl-3">
+                        <label class="form-check-label">
+                            <input type="radio" name="answer" class="form-check-input" />
+                            Kolkata
+                        </label>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-xl-3">
+                        <label class="form-check-label">
+                            <input type="radio" name="answer" class="form-check-input" />
+                            Chennai
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+        }
+
+
+    </div>
+
+</form>
+

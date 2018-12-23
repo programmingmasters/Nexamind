@@ -6,40 +6,54 @@
 
 
 <div class="container-fluid nexamind-background-color">
-    <h1>Category</h1>
+    <h1>Select your Interest</h1>
 
     <div class="row">
-        <div class="col-lg-3">
-            <a href="#" class="d-block mb-4 h-100">
-                <i class="fa fa-car text-danger" style="font-size:48px;" aria-hidden="true"></i>
+        <div id="Automobiles" class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 nexamind-onselect-bg-color-change p-1 m-1">
+            <a href="#" class="d-block mb-4 h-100 text-center nexamind-anchor-underline-hide">
+                <div class="fa fa-car text-danger" style="font-size:48px;" aria-hidden="true"></div>
+                <div>Automobiles</div>
+            </a>
+        </div>
+        <div id="Novels" class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 nexamind-onselect-bg-color-change p-1 m-1">
+            <a href="#" class="d-block mb-4 h-100 text-center nexamind-anchor-underline-hide">
+                <div class="fa fa-book text-primary" style="font-size:48px;" aria-hidden="true"></div>
+                <div>Novels</div>
 
             </a>
         </div>
-        <div class="col-lg-3">
-            <a href="#" class="d-block mb-4 h-100">
-                <i class="fa fa-book text-primary" style="font-size:48px;" aria-hidden="true"></i>
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 nexamind-onselect-bg-color-change p-1 m-1">
+            <a href="#" class="d-block mb-4 h-100 text-center nexamind-anchor-underline-hide">
+                <div class="fa fa-film text-success" style="font-size:48px;" aria-hidden="true"></div>
+                <div>Movies</div>
+
             </a>
         </div>
-        <div class="col-lg-3">
-            <a href="#" class="d-block mb-4 h-100">
-                <i class="fa fa-film text-success" style="font-size:48px;"  aria-hidden="true"></i>
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 nexamind-onselect-bg-color-change p-1 m-1">
+            <a href="#" class="d-block mb-4 h-100 text-center nexamind-anchor-underline-hide">
+                <div class="fa fa-laptop text-secondary" style="font-size:48px;" aria-hidden="true"></div>
+                <div>Technologies</div>
+
             </a>
         </div>
-        <div class="col-lg-3">
-            <a href="#" class="d-block mb-4 h-100">
-                <i class="fa fa-laptop text-secondary" style="font-size:48px;" aria-hidden="true"></i>
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 nexamind-onselect-bg-color-change p-1 m-1">
+            <a href="#" class="d-block mb-4 h-100 text-center nexamind-anchor-underline-hide">
+                <div class="fa fa-lightbulb-o text-info" style="font-size:48px;" aria-hidden="true"></div>
+                <div>Brain challenge</div>
+
             </a>
         </div>
-        <div class="col-lg-3">
-            <a href="#" class="d-block mb-4 h-100">
-                <i class="fa fa-car bg-danger nexamind-font-size-48" aria-hidden="true"></i>
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 nexamind-onselect-bg-color-change p-1 m-1">
+            <a href="#" class="d-block mb-4 h-100 text-center nexamind-anchor-underline-hide">
+                <div class="fa fa-binoculars text-warning" style="font-size:48px;" aria-hidden="true"></div>
+                <div>Outer Space</div>
+
             </a>
         </div>
-        <div class="col-lg-3">
-            <a href="#" class="d-block mb-4 h-100">
-                <i class="fa fa-binoculars text-warning" style="font-size:48px;" aria-hidden="true"></i>
-            </a>
-        </div>
+    </div>
+
+    <div class="row float-right">
+            <button class="btn btn-outline-primary" onclick="window.location.href('@Url.Action("Questions","Home")')"  >Next</button>
     </div>
 </div>
 

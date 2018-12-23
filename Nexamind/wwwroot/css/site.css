@@ -68,13 +68,27 @@ body {
 
 .nexamind-background-color 
 {
-    background-color: #DDDDDD;
-    /*background-color: #8561c5;*/
+    background-color: white;
+    /*background-color: none;*/
 }
 
 .nexamind-category-icon-size 
 {
 
+}
+
+.nexamind-anchor-underline-hide{
+    text-decoration: none !important;
+}
+
+.nexamind-onselect-bg-color-change
+{
+
+}
+
+.nexamind-text-color
+{
+    
 }
 
 
