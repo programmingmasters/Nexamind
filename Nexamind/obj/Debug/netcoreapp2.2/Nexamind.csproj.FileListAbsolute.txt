@@ -8,7 +8,6 @@ D:\Nexamind\Nexamind\bin\Debug\netcoreapp2.2\Nexamind.dll
 D:\Nexamind\Nexamind\bin\Debug\netcoreapp2.2\Nexamind.pdb
 D:\Nexamind\Nexamind\bin\Debug\netcoreapp2.2\Nexamind.Views.dll
 D:\Nexamind\Nexamind\bin\Debug\netcoreapp2.2\Nexamind.Views.pdb
-D:\Nexamind\Nexamind\obj\Debug\netcoreapp2.2\Nexamind.csprojAssemblyReference.cache
 D:\Nexamind\Nexamind\obj\Debug\netcoreapp2.2\Nexamind.RazorAssemblyInfo.cache
 D:\Nexamind\Nexamind\obj\Debug\netcoreapp2.2\Nexamind.RazorAssemblyInfo.cs
 D:\Nexamind\Nexamind\obj\Debug\netcoreapp2.2\Nexamind.TagHelpers.input.cache
@@ -65,3 +64,9 @@ F:\Nexamind\Nexamind\obj\Debug\netcoreapp2.2\Razor\Views\Home\Settings.g.cshtml.
 F:\Nexamind\Nexamind\obj\Debug\netcoreapp2.2\Nexamind.csprojAssemblyReference.cache
 F:\Nexamind\Nexamind\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LayoutAccount.g.cshtml.cs
 F:\Nexamind\Nexamind\obj\Debug\netcoreapp2.2\Razor\Views\Account\Login.g.cshtml.cs
+D:\Nexamind\Nexamind\obj\Debug\netcoreapp2.2\Razor\Views\Home\Questions.g.cshtml.cs
+D:\Nexamind\Nexamind\obj\Debug\netcoreapp2.2\Razor\Views\Home\Settings.g.cshtml.cs
+D:\Nexamind\Nexamind\obj\Debug\netcoreapp2.2\Razor\Views\Utility\NexamindToggleSwitch.g.cshtml.cs
+D:\Nexamind\Nexamind\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_AccountLayout.g.cshtml.cs
+D:\Nexamind\Nexamind\obj\Debug\netcoreapp2.2\Razor\Views\Account\Login.g.cshtml.cs
+D:\Nexamind\Nexamind\obj\Debug\netcoreapp2.2\Nexamind.csprojAssemblyReference.cache

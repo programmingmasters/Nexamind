@@ -26,11 +26,21 @@ $(document).ready(function () {
         if (color == "rgb(255, 255, 255)") {
             $("body").css("background-color", "black");
             $(".nexamind-text-color").css("color", "white");
+            $(".nexamind-hr-color").css("color","#C0C0C0");
         }
         else {
             $("body").css("background-color", "white");
             $(".nexamind-text-color").css("color", "black");
+            $(".nexamind-hr-color").css("color", "grey");
         }
+    });
+
+    $(".nexamind-signout").click(function () {
+            var auth2 = gapi.auth2.getAuthInstance();
+            auth2.signOut().then(function () {
+                console.log('User signed out.');
+            });
+        
     });
 
     //$(".nexamind-onselect-bg-color-change").hover(function () {

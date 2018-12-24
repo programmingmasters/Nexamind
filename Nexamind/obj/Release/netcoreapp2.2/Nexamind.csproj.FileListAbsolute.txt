@@ -63,3 +63,8 @@ F:\Nexamind\Nexamind\obj\Release\netcoreapp2.2\Nexamind.csproj.CopyComplete
 F:\Nexamind\Nexamind\obj\Release\netcoreapp2.2\Razor\Views\Home\Questions.g.cshtml.cs
 F:\Nexamind\Nexamind\obj\Release\netcoreapp2.2\Razor\Views\Home\Settings.g.cshtml.cs
 F:\Nexamind\Nexamind\obj\Release\netcoreapp2.2\Razor\Views\Utility\NexamindToggleSwitch.g.cshtml.cs
+D:\Nexamind\Nexamind\obj\Release\netcoreapp2.2\Razor\Views\Account\Login.g.cshtml.cs
+D:\Nexamind\Nexamind\obj\Release\netcoreapp2.2\Razor\Views\Home\Questions.g.cshtml.cs
+D:\Nexamind\Nexamind\obj\Release\netcoreapp2.2\Razor\Views\Home\Settings.g.cshtml.cs
+D:\Nexamind\Nexamind\obj\Release\netcoreapp2.2\Razor\Views\Shared\_AccountLayout.g.cshtml.cs
+D:\Nexamind\Nexamind\obj\Release\netcoreapp2.2\Razor\Views\Utility\NexamindToggleSwitch.g.cshtml.cs
