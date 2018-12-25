@@ -6,39 +6,41 @@
 
 <div class="container">
     <br /><br />
-    <div class="jumbotron">
-        <div>
-            <img src="~/images/NM_logo.png" alt="Nexamind Logo" style="max-height:200px;" class="img-fluid rounded mx-auto d-block" />
-        </div>
-        <form asp-controller="Account" asp-action="Login" method="post">
-            <div class="form-group">
-                <label for="usr">Username:</label>
-                <input type="text" class="form-control" id="usr" name="username">
-            </div>
-            <div class="form-group">
-                <label for="pwd">Password:</label>
-                <input type="password" class="form-control" id="pwd" name="password">
-            </div>
-            <div class="text-center">
-                <button type="submit" class="btn btn-primary btn-block">Login</button>
-            </div>
-            
-            <br/>
-            <div class="text-center">
-                <label>OR</label>
-            </div>
-            <br/>
-            <div class="row">
-                <div class="col-md-6 ">
-                    <div class="g-signin2" data-onsuccess="onSignIn"></div>
+          <div class="row">
+              <div class="col-md-4 col-lg-6 col-xl-6"></div>
+              <div class="col-xs-12 col-md-8 col-lg-6 col-xl-6">
+                  <div class="jumbotron">
+                      <div>
+                          <img src="~/images/NM_logo.png" alt="Nexamind Logo" style="max-height:200px;" class="img-fluid rounded mx-auto d-block" />
+                      </div>
+                      <form asp-controller="Account" asp-action="Login" method="post">
+                          <div class="form-group">
+                              <label for="usr">Username:</label>
+                              <input type="text" class="form-control" id="usr" name="username">
+                          </div>
+                          <div class="form-group">
+                              <label for="pwd">Password:</label>
+                              <input type="password" class="form-control" id="pwd" name="password">
+                          </div>
+                          <div class="text-center">
+                              <button type="submit" class="btn btn-primary btn-block">Login</button>
+                          </div>
 
-                </div>
-                <div class="col-md-6">
-                    <div class="g-signin2" data-onsuccess="onSignIn"></div>
-                </div>
-            </div>
-        </form>
-    </div>
+                          <br />
+                          <div class="text-center">
+                              <label>OR</label>
+                          </div>
+                          <br/>
+                          <div class="row">
+                            <span class="g-signin2" data-onsuccess="onSignIn"></span>
+                              
+                            @*<span class="g-signin2 float-right" data-onsuccess="onSignIn"></span>*@
+                          </div>
+                      </form>
+                  </div>
+
+              </div>
+          </div>
 
 
 
