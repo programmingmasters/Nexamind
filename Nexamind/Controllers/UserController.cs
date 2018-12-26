@@ -15,10 +15,10 @@ namespace Nexamind.Controllers
     {
         private readonly IUserDetailRepository _userDetailRepository;
 
-        public UserController(IUserDetailRepository userDetailRepository)
-        {
-            _userDetailRepository = userDetailRepository;
-        }
+            public UserController(IUserDetailRepository userDetailRepository)
+            {
+                _userDetailRepository = userDetailRepository;
+            }
 
 
         [HttpGet("All")]

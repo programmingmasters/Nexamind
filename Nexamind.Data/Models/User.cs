@@ -15,9 +15,11 @@ namespace Nexamind.Data.Models
 
         public string LastName { get; set; }
 
-        public string Email { get; set; }
+        public string UniqueId { get; set; }
 
         public string Password { get; set; }
+
+        public string Email { get; set; }
 
         public string CountryDialingCode { get; set; }
 

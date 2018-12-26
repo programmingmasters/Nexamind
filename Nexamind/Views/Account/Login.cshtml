@@ -1,4 +1,4 @@
-﻿
+﻿@model Nexamind.ViewModel.UserViewModel.LoginViewModel
 @{
     ViewData["Title"] = "Login";
     Layout = "~/Views/Shared/_AccountLayout.cshtml";
@@ -16,14 +16,22 @@
                       <form asp-controller="Account" asp-action="Login" method="post">
                           <div class="form-group">
                               <label for="usr">Username:</label>
-                              <input type="text" class="form-control" id="usr" name="username">
+                              <input type="text" class="form-control" id="UniqueIdentity" name="UniqueIdentity">
                           </div>
                           <div class="form-group">
                               <label for="pwd">Password:</label>
-                              <input type="password" class="form-control" id="pwd" name="password">
+                              <input type="password" class="form-control" id="Password" name="Password">
                           </div>
                           <div class="text-center">
                               <button type="submit" class="btn btn-primary btn-block">Login</button>
+                          </div>
+                          <div class="row">
+                              <div class="col-sm-6">
+                                  <a asp-controller="Account" asp-action="Register" >Create an account.</a>
+                              </div>
+                              <div class="col-sm-6 text-right">
+                                  <a asp-controller="Account" asp-action="ForgetPassword">Forgot Password?</a>
+                              </div>
                           </div>
 
                           <br />

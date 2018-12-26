@@ -5205,6 +5205,19 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
+      "Nexamind.BO/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Nexamind.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Nexamind.BO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nexamind.BO.dll": {}
+        }
+      },
       "Nexamind.Data/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -5220,6 +5233,16 @@
         },
         "runtime": {
           "bin/placeholder/Nexamind.Data.dll": {}
+        }
+      },
+      "Nexamind.ViewModel/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Nexamind.ViewModel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nexamind.ViewModel.dll": {}
         }
       }
     }
@@ -14447,20 +14470,33 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
+    "Nexamind.BO/1.0.0": {
+      "type": "project",
+      "path": "../Nexamind.BO/Nexamind.BO.csproj",
+      "msbuildProject": "../Nexamind.BO/Nexamind.BO.csproj"
+    },
     "Nexamind.Data/1.0.0": {
       "type": "project",
       "path": "../Nexamind.Data/Nexamind.Data.csproj",
       "msbuildProject": "../Nexamind.Data/Nexamind.Data.csproj"
+    },
+    "Nexamind.ViewModel/1.0.0": {
+      "type": "project",
+      "path": "../Nexamind.ViewModel/Nexamind.ViewModel.csproj",
+      "msbuildProject": "../Nexamind.ViewModel/Nexamind.ViewModel.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
       "Microsoft.AspNetCore.App >= 2.2.0",
+      "Microsoft.AspNetCore.Authentication.Cookies >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.0.2105168",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.2.0",
+      "Nexamind.BO >= 1.0.0",
       "Nexamind.Data >= 1.0.0",
+      "Nexamind.ViewModel >= 1.0.0",
       "jquery.mobile >= 1.4.5"
     ]
   },
@@ -14494,8 +14530,14 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
+            "D:\\Nexamind\\Nexamind.BO\\Nexamind.BO.csproj": {
+              "projectPath": "D:\\Nexamind\\Nexamind.BO\\Nexamind.BO.csproj"
+            },
             "D:\\Nexamind\\Nexamind.Data\\Nexamind.Data.csproj": {
               "projectPath": "D:\\Nexamind\\Nexamind.Data\\Nexamind.Data.csproj"
+            },
+            "D:\\Nexamind\\Nexamind.ViewModel\\Nexamind.ViewModel.csproj": {
+              "projectPath": "D:\\Nexamind\\Nexamind.ViewModel\\Nexamind.ViewModel.csproj"
             }
           }
         }
@@ -14514,6 +14556,10 @@
             "target": "Package",
             "version": "[2.2.0, )",
             "autoReferenced": true
+          },
+          "Microsoft.AspNetCore.Authentication.Cookies": {
+            "target": "Package",
+            "version": "[2.2.0, )"
           },
           "Microsoft.AspNetCore.Razor.Design": {
             "suppressParent": "All",

@@ -7,10 +7,15 @@
     <UserSecretsId>d41a3a96-6d75-4bc5-958d-4dca3681dd77</UserSecretsId>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Controllers\UserController.cs" />
+  </ItemGroup>
+
 
   <ItemGroup>
     <PackageReference Include="jquery.mobile" Version="1.4.5" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Cookies" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.0.2105168" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.0" />
@@ -18,7 +23,9 @@
 
 
   <ItemGroup>
+    <ProjectReference Include="..\Nexamind.BO\Nexamind.BO.csproj" />
     <ProjectReference Include="..\Nexamind.Data\Nexamind.Data.csproj" />
+    <ProjectReference Include="..\Nexamind.ViewModel\Nexamind.ViewModel.csproj" />
   </ItemGroup>
 
 </Project>

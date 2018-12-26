@@ -10,7 +10,7 @@ namespace Nexamind.BO.UserRepository
     {
         Task<IEnumerable<User>> GetAllUsers();
 
-        Task<User> GetUser(string name);
+        Task<User> GetUser(string uniqueIdentity);
 
         Task Create(User user);
 

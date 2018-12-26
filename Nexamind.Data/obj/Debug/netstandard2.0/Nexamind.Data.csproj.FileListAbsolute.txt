@@ -4,3 +4,6 @@ D:\Nexamind\Nexamind.Data\obj\Debug\netstandard2.0\Nexamind.Data.csprojAssemblyR
 D:\Nexamind\Nexamind.Data\obj\Debug\netstandard2.0\Nexamind.Data.csproj.CoreCompileInputs.cache
 D:\Nexamind\Nexamind.Data\obj\Debug\netstandard2.0\Nexamind.Data.AssemblyInfoInputs.cache
 D:\Nexamind\Nexamind.Data\obj\Debug\netstandard2.0\Nexamind.Data.AssemblyInfo.cs
+D:\Nexamind\Nexamind.Data\bin\Debug\netstandard2.0\Nexamind.Data.pdb
+D:\Nexamind\Nexamind.Data\obj\Debug\netstandard2.0\Nexamind.Data.dll
+D:\Nexamind\Nexamind.Data\obj\Debug\netstandard2.0\Nexamind.Data.pdb
