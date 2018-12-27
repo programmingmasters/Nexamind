@@ -27,7 +27,7 @@ namespace Nexamind.BO.UserRepository
         //to get the detail of a single user
         public Task<User> GetUser(string uniqueIdentity)
         {
-            FilterDefinition<User> filter = Builders<User>.Filter.Eq(m => $"{m.Email}", uniqueIdentity);
+            FilterDefinition<User> filter = Builders<User>.Filter.Eq(m => m.Email, uniqueIdentity);
 
             return _context.Users.Find(filter).FirstOrDefaultAsync();
         }

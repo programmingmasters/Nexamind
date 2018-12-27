@@ -7,3 +7,6 @@ D:\Nexamind\Nexamind.ViewModel\obj\Debug\netstandard2.0\Nexamind.ViewModel.Assem
 D:\Nexamind\Nexamind.ViewModel\obj\Debug\netstandard2.0\Nexamind.ViewModel.dll
 D:\Nexamind\Nexamind.ViewModel\obj\Debug\netstandard2.0\Nexamind.ViewModel.pdb
 D:\Nexamind\Nexamind.ViewModel\obj\Debug\netstandard2.0\Nexamind.ViewModel.csprojAssemblyReference.cache
+D:\Nexamind\Nexamind.ViewModel\bin\Debug\netstandard2.0\Nexamind.Data.dll
+D:\Nexamind\Nexamind.ViewModel\bin\Debug\netstandard2.0\Nexamind.Data.pdb
+D:\Nexamind\Nexamind.ViewModel\obj\Debug\netstandard2.0\Nexamind.ViewModel.csproj.CopyComplete

@@ -20,7 +20,6 @@ $(document).ready(function () {
     $(".nexamind-toggleswitch-nightmode").change(function () {
 
         var color = $("body").css("background-color");
-        debugger;
         console.log(color);
 
 

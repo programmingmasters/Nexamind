@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nexamind.Data", "Nexamind.D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nexamind.BO", "Nexamind.BO\Nexamind.BO.csproj", "{766BB58E-DE94-4155-BE92-E8DE08F31A84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nexamind.ViewModel", "Nexamind.ViewModel\Nexamind.ViewModel.csproj", "{7C38898E-AEDA-415F-B7B9-5167A0FBF1EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nexamind.ViewModel", "Nexamind.ViewModel\Nexamind.ViewModel.csproj", "{7C38898E-AEDA-415F-B7B9-5167A0FBF1EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nexamind.Core", "Nexamind.Core\Nexamind.Core.csproj", "{DCB3A0D1-A75E-48BD-AA19-264B9C63A9E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{7C38898E-AEDA-415F-B7B9-5167A0FBF1EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C38898E-AEDA-415F-B7B9-5167A0FBF1EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C38898E-AEDA-415F-B7B9-5167A0FBF1EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCB3A0D1-A75E-48BD-AA19-264B9C63A9E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCB3A0D1-A75E-48BD-AA19-264B9C63A9E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCB3A0D1-A75E-48BD-AA19-264B9C63A9E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCB3A0D1-A75E-48BD-AA19-264B9C63A9E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

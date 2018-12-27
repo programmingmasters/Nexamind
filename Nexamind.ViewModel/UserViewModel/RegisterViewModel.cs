@@ -1,4 +1,6 @@
-﻿using System;
+﻿using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -6,8 +8,8 @@ namespace Nexamind.ViewModel.UserViewModel
 {
     public class RegisterViewModel : BaseModel
     {
-        //[BsonId]
-       // public ObjectId Id { get; set; }
+        [BsonId]
+        public ObjectId Id { get; set; }
 
         public string FirstName { get; set; }
 
@@ -16,11 +18,8 @@ namespace Nexamind.ViewModel.UserViewModel
         public string Gender { get; set; }
 
         public string Email { get; set; }
-        //public string UniqueId { get; set; }
-
+        
         public string Password { get; set; }
-
-        //public string Email { get; set; }
 
         public string CountryDialingCode { get; set; }
 
@@ -40,11 +39,11 @@ namespace Nexamind.ViewModel.UserViewModel
 
         public DateTime CreatedDate { get; set; } 
 
-        //public ObjectId CreatedBy { get; set; }
+        public ObjectId CreatedBy { get; set; }
 
         public DateTime ModifiedDate { get; set; }
 
-        //public ObjectId ModifiedBy { get; set; }
+        public ObjectId ModifiedBy { get; set; }
 
         public bool IsActive { get; set; } = true;
     }

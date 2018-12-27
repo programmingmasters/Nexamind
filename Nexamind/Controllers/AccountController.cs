@@ -31,7 +31,7 @@ namespace Nexamind.Controllers
             try
             {
                
-                var User = await _userRepository.GetUser(loginModel.UniqueIdentity);
+                var User = await _userRepository.GetUser(loginModel.Email);
 
                 //check if user exists.
                 if (User == null)
@@ -54,7 +54,7 @@ namespace Nexamind.Controllers
                     return RedirectToAction("Index", "Home", User);
                 }
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 return View( StatusCode(StatusCodes.Status500InternalServerError));
             }
