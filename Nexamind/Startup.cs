@@ -75,6 +75,11 @@ namespace Nexamind
                     name: "default",
                     template: "{controller=Account}/{action=Login}/{id?}");
             });
+
+            Mapper.Initialize(x =>
+           {
+
+           });
         }
     }
 }

@@ -27,7 +27,7 @@ namespace Nexamind.BO.UserRepository
         //to get the detail of a single user
         public Task<User> GetUser(string uniqueIdentity)
         {
-            FilterDefinition<User> filter = Builders<User>.Filter.Eq(m => $"{m.UniqueId}", uniqueIdentity);
+            FilterDefinition<User> filter = Builders<User>.Filter.Eq(m => $"{m.Email}", uniqueIdentity);
 
             return _context.Users.Find(filter).FirstOrDefaultAsync();
         }
@@ -41,7 +41,7 @@ namespace Nexamind.BO.UserRepository
             }
             catch (Exception ex)
             {
-                throw new Exception("New game has not been created successfully", ex);
+                throw new Exception("New User has not been created successfully", ex);
             }
 
 

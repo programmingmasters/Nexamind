@@ -15,11 +15,12 @@ namespace Nexamind.ViewModel.UserViewModel
 
         public string Gender { get; set; }
 
-        public string UniqueId { get; set; }
+        public string Email { get; set; }
+        //public string UniqueId { get; set; }
 
         public string Password { get; set; }
 
-        public string Email { get; set; }
+        //public string Email { get; set; }
 
         public string CountryDialingCode { get; set; }
 
@@ -37,14 +38,14 @@ namespace Nexamind.ViewModel.UserViewModel
 
         public string Country { get; set; }
 
-        //public DateTime CreatedDate { get; set; }
+        public DateTime CreatedDate { get; set; } 
 
         //public ObjectId CreatedBy { get; set; }
 
-        //public DateTime ModifiedDate { get; set; }
+        public DateTime ModifiedDate { get; set; }
 
         //public ObjectId ModifiedBy { get; set; }
 
-        //public bool IsActive { get; set; }
+        public bool IsActive { get; set; } = true;
     }
 }

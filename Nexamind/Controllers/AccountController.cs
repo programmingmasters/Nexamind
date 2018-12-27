@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Nexamind.BO.UserRepository;
+using Nexamind.Data.Models;
 using Nexamind.ViewModel.UserViewModel;
 
 namespace Nexamind.Controllers
@@ -72,20 +74,16 @@ namespace Nexamind.Controllers
         {
             if (ModelState.IsValid)
             {
-                var isUserExist = await _userRepository.GetUser(registerModel.UniqueId);
-
-                if (isUserExist != null)
-                {
-                    registerModel.Message = $"{registerModel.UniqueId} already exists.\n Please Provide another Email.";
-                    return View(registerModel);
-                }
-
-                else
-                {
-
-                  //  await _userRepository.Create(user);
-                }
+                //var user = await _userRepository.GetUser(registerModel.Email);
+                //if (user != null)
+                //{
+                //    registerModel.Message = $"{registerModel.Email} already exists.\n Please Provide another Email.";
+                //    return View(registerModel);
+                //}
                 
+                var user = Mapper.Map<User>(registerModel);
+                await _userRepository.Create(user);
+                return RedirectToAction("Login","Account");
             }
             return View();
         }
