@@ -67,6 +67,29 @@ namespace Nexamind.Controllers
             return View();
         }
 
+        [HttpPost]
+        public async Task<IActionResult> Register(RegisterViewModel registerModel)
+        {
+            if (ModelState.IsValid)
+            {
+                var isUserExist = await _userRepository.GetUser(registerModel.UniqueId);
+
+                if (isUserExist != null)
+                {
+                    registerModel.Message = $"{registerModel.UniqueId} already exists.\n Please Provide another Email.";
+                    return View(registerModel);
+                }
+
+                else
+                {
+
+                  //  await _userRepository.Create(user);
+                }
+                
+            }
+            return View();
+        }
+
         public IActionResult ForgetPassword()
         {
             return View();

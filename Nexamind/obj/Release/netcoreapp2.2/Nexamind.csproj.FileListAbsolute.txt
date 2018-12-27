@@ -68,3 +68,10 @@ D:\Nexamind\Nexamind\obj\Release\netcoreapp2.2\Razor\Views\Home\Questions.g.csht
 D:\Nexamind\Nexamind\obj\Release\netcoreapp2.2\Razor\Views\Home\Settings.g.cshtml.cs
 D:\Nexamind\Nexamind\obj\Release\netcoreapp2.2\Razor\Views\Shared\_AccountLayout.g.cshtml.cs
 D:\Nexamind\Nexamind\obj\Release\netcoreapp2.2\Razor\Views\Utility\NexamindToggleSwitch.g.cshtml.cs
+D:\Nexamind\Nexamind\bin\Release\netcoreapp2.2\Nexamind.BO.dll
+D:\Nexamind\Nexamind\bin\Release\netcoreapp2.2\Nexamind.Data.dll
+D:\Nexamind\Nexamind\bin\Release\netcoreapp2.2\Nexamind.ViewModel.dll
+D:\Nexamind\Nexamind\bin\Release\netcoreapp2.2\Nexamind.BO.pdb
+D:\Nexamind\Nexamind\bin\Release\netcoreapp2.2\Nexamind.Data.pdb
+D:\Nexamind\Nexamind\bin\Release\netcoreapp2.2\Nexamind.ViewModel.pdb
+D:\Nexamind\Nexamind\obj\Release\netcoreapp2.2\Razor\Views\Account\Register.g.cshtml.cs

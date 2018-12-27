@@ -13,6 +13,8 @@ namespace Nexamind.ViewModel.UserViewModel
 
         public string LastName { get; set; }
 
+        public string Gender { get; set; }
+
         public string UniqueId { get; set; }
 
         public string Password { get; set; }

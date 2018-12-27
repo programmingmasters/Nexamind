@@ -23,7 +23,9 @@ $(document).ready(function () {
         debugger;
         console.log(color);
 
-        if (color == "rgb(255, 255, 255)") {
+
+        // Replace === with == if dark theme doesn't work.
+        if (color === "rgb(255, 255, 255)") {
             $("body").css("background-color", "black");
             $(".nexamind-text-color").css("color", "white");
             $(".nexamind-hr-color").css("color","#C0C0C0");

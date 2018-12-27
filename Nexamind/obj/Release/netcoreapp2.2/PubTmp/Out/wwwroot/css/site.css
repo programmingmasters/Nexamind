@@ -42,8 +42,8 @@ html {
 }
 
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+    padding: 3%;
 }
 .footer {
   position: absolute;

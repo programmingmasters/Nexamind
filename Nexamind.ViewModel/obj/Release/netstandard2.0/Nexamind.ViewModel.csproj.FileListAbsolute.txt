@@ -1,0 +1,9 @@
+D:\Nexamind\Nexamind.ViewModel\bin\Release\netstandard2.0\Nexamind.ViewModel.deps.json
+D:\Nexamind\Nexamind.ViewModel\bin\Release\netstandard2.0\Nexamind.ViewModel.dll
+D:\Nexamind\Nexamind.ViewModel\bin\Release\netstandard2.0\Nexamind.ViewModel.pdb
+D:\Nexamind\Nexamind.ViewModel\obj\Release\netstandard2.0\Nexamind.ViewModel.csprojAssemblyReference.cache
+D:\Nexamind\Nexamind.ViewModel\obj\Release\netstandard2.0\Nexamind.ViewModel.csproj.CoreCompileInputs.cache
+D:\Nexamind\Nexamind.ViewModel\obj\Release\netstandard2.0\Nexamind.ViewModel.AssemblyInfoInputs.cache
+D:\Nexamind\Nexamind.ViewModel\obj\Release\netstandard2.0\Nexamind.ViewModel.AssemblyInfo.cs
+D:\Nexamind\Nexamind.ViewModel\obj\Release\netstandard2.0\Nexamind.ViewModel.dll
+D:\Nexamind\Nexamind.ViewModel\obj\Release\netstandard2.0\Nexamind.ViewModel.pdb
