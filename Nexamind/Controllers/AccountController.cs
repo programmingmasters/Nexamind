@@ -41,14 +41,14 @@ namespace Nexamind.Controllers
                 }
 
                 //check if user account is active.
-                if (!User.IsActive)
+                if (!User.is_active)
                 {
                     loginModel.Message = "Account is not Active, Please Register Again!";
                     return View();
                 }
 
                 //check if password is correct.
-                if (User.Password == loginModel.Password)
+                if (User.password == loginModel.Password)
                 {
                     loginModel.Message = "Login Successful!";
                     return RedirectToAction("Index", "Home", User);
@@ -87,7 +87,7 @@ namespace Nexamind.Controllers
             }
             return View();
         }
-
+        
         public IActionResult ForgetPassword()
         {
             return View();

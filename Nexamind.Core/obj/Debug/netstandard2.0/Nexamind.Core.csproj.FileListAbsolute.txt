@@ -1,0 +1,9 @@
+D:\Nexamind\Nexamind.Core\bin\Debug\netstandard2.0\Nexamind.Core.deps.json
+D:\Nexamind\Nexamind.Core\bin\Debug\netstandard2.0\Nexamind.Core.dll
+D:\Nexamind\Nexamind.Core\bin\Debug\netstandard2.0\Nexamind.Core.pdb
+D:\Nexamind\Nexamind.Core\obj\Debug\netstandard2.0\Nexamind.Core.csprojAssemblyReference.cache
+D:\Nexamind\Nexamind.Core\obj\Debug\netstandard2.0\Nexamind.Core.csproj.CoreCompileInputs.cache
+D:\Nexamind\Nexamind.Core\obj\Debug\netstandard2.0\Nexamind.Core.AssemblyInfoInputs.cache
+D:\Nexamind\Nexamind.Core\obj\Debug\netstandard2.0\Nexamind.Core.AssemblyInfo.cs
+D:\Nexamind\Nexamind.Core\obj\Debug\netstandard2.0\Nexamind.Core.dll
+D:\Nexamind\Nexamind.Core\obj\Debug\netstandard2.0\Nexamind.Core.pdb

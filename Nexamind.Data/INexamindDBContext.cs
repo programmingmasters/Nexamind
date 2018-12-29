@@ -8,6 +8,6 @@ namespace Nexamind.Data
 {
     public interface INexamindDBContext
     {
-        IMongoCollection<User> Users{ get; }
+        IMongoCollection<User> users{ get; }
     }
 }

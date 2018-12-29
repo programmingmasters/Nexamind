@@ -19,7 +19,7 @@ namespace Nexamind.Data
         }
 
         //To store the detail of a user
-        public IMongoCollection<User> Users => _db.GetCollection<User>("Users");
+        public IMongoCollection<User> users => _db.GetCollection<User>("users");
 
     }
 }

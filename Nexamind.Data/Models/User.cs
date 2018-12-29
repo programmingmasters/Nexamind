@@ -10,42 +10,42 @@ namespace Nexamind.Data.Models
     public class User
     {
         [BsonId] 
-        public  ObjectId Id { get; set; }
+        public  ObjectId _id { get; set; }
 
-        public string FirstName { get; set; }
+        public string first_name { get; set; }
 
-        public string LastName { get; set; }
+        public string last_name { get; set; }
 
-        public string Gender { get; set; }
+        public string gender { get; set; }
 
-        public string Email { get; set; }
+        public string email { get; set; }
 
-        public string Password { get; set; }
+        public string password { get; set; }
 
-        public string CountryDialingCode { get; set; }
+        public string country_dialing_code { get; set; }
 
-        public string PhoneNumber { get; set; }
+        public string phone_number { get; set; }
 
-        public string AddressLine1 { get; set; }
+        public string address_line1 { get; set; }
 
-        public string AddressLine2 { get; set; }
+        public string address_line2 { get; set; }
 
-        public string City { get; set; }
+        public string city { get; set; }
 
-        public string ZipCode { get; set; }
+        public string zip_code { get; set; }
 
-        public string State { get; set; }
+        public string state { get; set; }
 
-        public string Country { get; set; }
+        public string country { get; set; }
 
-        public DateTime CreatedDate { get; set; }
+        public DateTime created_date { get; set; }
        
-        public ObjectId CreatedBy { get; set; }
+        public ObjectId created_by { get; set; }
 
-        public DateTime ModifiedDate { get; set; }
+        public DateTime modified_date { get; set; }
        
-        public ObjectId ModifiedBy { get; set; }
+        public ObjectId modified_by { get; set; }
 
-        public bool IsActive { get; set; }
+        public bool is_active { get; set; }
     }
 }

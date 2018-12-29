@@ -20,16 +20,16 @@ namespace Nexamind.BO.UserRepository
         //to get the list of all users
         public async Task<IEnumerable<User>> GetAllUsers()
         {
-            return await _context.Users.Find(_ => true).ToListAsync();
+            return await _context.users.Find(_ => true).ToListAsync();
         }
 
 
         //to get the detail of a single user
         public Task<User> GetUser(string uniqueIdentity)
         {
-            FilterDefinition<User> filter = Builders<User>.Filter.Eq(m => m.Email, uniqueIdentity);
+            FilterDefinition<User> filter = Builders<User>.Filter.Eq(m => m.email, uniqueIdentity);
 
-            return _context.Users.Find(filter).FirstOrDefaultAsync();
+            return _context.users.Find(filter).FirstOrDefaultAsync();
         }
 
         //create a new user
@@ -37,7 +37,7 @@ namespace Nexamind.BO.UserRepository
         {
             try
             {
-                await _context.Users.InsertOneAsync(user);
+                await _context.users.InsertOneAsync(user);
             }
             catch (Exception ex)
             {
@@ -50,8 +50,8 @@ namespace Nexamind.BO.UserRepository
         //to update a user
         public async Task<bool> Update(User user)
         {
-            ReplaceOneResult updateResult = await _context.Users.ReplaceOneAsync(
-            filter: g => g.Id == user.Id,
+            ReplaceOneResult updateResult = await _context.users.ReplaceOneAsync(
+            filter: g => g._id == user._id,
             replacement: user);
 
             return updateResult.IsAcknowledged && updateResult.ModifiedCount > 0;
@@ -61,9 +61,9 @@ namespace Nexamind.BO.UserRepository
         //to delete a user
         public async Task<bool> Delete(string name)
         {
-            FilterDefinition<User> filter = Builders<User>.Filter.Eq(m => $"{m.FirstName} {m.LastName}", name);
+            FilterDefinition<User> filter = Builders<User>.Filter.Eq(m => $"{m.first_name} {m.last_name}", name);
 
-            DeleteResult deleteResult = await _context.Users.DeleteOneAsync(filter);
+            DeleteResult deleteResult = await _context.users.DeleteOneAsync(filter);
 
             return deleteResult.IsAcknowledged && deleteResult.DeletedCount > 0;
 

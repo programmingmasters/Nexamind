@@ -2,6 +2,65 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
+
+<nav class="navbar-expand-sm bg-dark navbar-dark fixed-bottom">
+    <ul class="row nav nav-tabs" role="tablist">
+        <li class="nav-item col text-center">
+            <a class="nav-link active" data-toggle="tab" href="#play"><i class="fa fa-play" aria-hidden="true"></i></a>
+        </li>
+        <li class="nav-item col text-center">
+            <a class="nav-link" data-toggle="tab" href="#profile"><i class="fa fa-user" aria-hidden="true"></i></a>
+        </li>
+        <li class="nav-item col text-center">
+            <a class="nav-link" data-toggle="tab" href="#leaderboard"><i class="fas fa-award" aria-hidden="true"></i></a>
+        </li>
+        <li class="nav-item col text-center">
+            <a class="nav-link" data-toggle="tab" href="#setting"><i class="fas fa-cog" aria-hidden="true"></i></a>
+        </li>
+    </ul>
+</nav>
+
+<div class="tab-content">
+    <div id="play" class="container tab-pane fade">
+        <h2>Play</h2>
+    </div>
+
+    <div id="profile" class="container tab-pane fade">
+        <h2>Profile</h2>
+    </div>
+
+    <div id="leaderboard" class="container tab-pane fade">
+        <h2>Leaderboard</h2>
+        <div class="container">
+            <table class="table table-dark table-striped">
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                    </tr>
+                    <tr>
+                        <th>Name</th>
+                    </tr>
+                    <tr>
+                        <th>Country</th>
+                    </tr>
+                    <tr>
+                        <th>Profit</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>random Data</td>
+                        <td>random Data</td>
+                        <td>random Data</td>
+                        <td>random Data</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div id="setting" class="container tab-pane fade">
+        <h2>Setting</h2>
+    </div>
 </div>
+

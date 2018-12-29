@@ -77,3 +77,4 @@ D:\Nexamind\Nexamind\bin\Debug\netcoreapp2.2\Nexamind.BO.pdb
 D:\Nexamind\Nexamind\bin\Debug\netcoreapp2.2\Nexamind.Data.pdb
 D:\Nexamind\Nexamind\bin\Debug\netcoreapp2.2\Nexamind.ViewModel.pdb
 D:\Nexamind\Nexamind\obj\Debug\netcoreapp2.2\Razor\Views\Account\Register.g.cshtml.cs
+D:\Nexamind\Nexamind\obj\Debug\netcoreapp2.2\Razor\Views\Settings\Index.g.cshtml.cs
