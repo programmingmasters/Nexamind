@@ -1,4 +1,6 @@
-﻿@{
+﻿@model Nexamind.ViewModel.ApplicationViewModel.HomeViewModel
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
@@ -44,7 +46,7 @@
                     <div class="col-md-6">
                         <div class="profile-head">
                             <h5>
-                                Kshiti Ghelani
+                                @Model.Profile.first_name&nbsp;@Model.Profile.last_name
                             </h5>
                             <h6>
                                 Web Developer and Designer
@@ -87,31 +89,31 @@
                                         <label>User Id</label>
                                     </div>
                                     <div class="col-md-6">
-                                        <p>Kshiti123</p>
+                                        <p>@Model.Profile.email</p>
                                     </div>
                                 </div>
-                                <div class="row">
+                                @*<div class="row">
                                     <div class="col-md-6">
                                         <label>Name</label>
                                     </div>
                                     <div class="col-md-6">
-                                        <p>Kshiti Ghelani</p>
+                                        <p>@Model.Profile.first_name&nbsp;@Model.Profile.last_name</p>
                                     </div>
-                                </div>
-                                <div class="row">
+                                </div>*@
+                                @*<div class="row">
                                     <div class="col-md-6">
                                         <label>Email</label>
                                     </div>
                                     <div class="col-md-6">
-                                        <p>kshitighelani@gmail.com</p>
+                                        <p>@Model.Profile.email</p>
                                     </div>
-                                </div>
+                                </div>*@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <label>Phone</label>
                                     </div>
                                     <div class="col-md-6">
-                                        <p>123 456 7890</p>
+                                        <p>@Model.Profile.phone_number </p>
                                     </div>
                                 </div>
                                 <div class="row">

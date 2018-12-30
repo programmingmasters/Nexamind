@@ -5,6 +5,7 @@
 }
 
 <form asp-controller="Account" asp-action="Register" method="post">
+
     <div class="container register">
         <div class="row">
             <div class="col-md-3 register-left">
@@ -26,25 +27,28 @@
                     </li>
                 </ul>
                 <div class="tab-content" id="myTabContent">
+                    @*<div asp-validation-summary="All"></div>*@
                     <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                         <h3 class="register-heading">These Details are Required</h3>
                         <div class="row register-form">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" name="FirstName" id="FirstName" class="form-control" placeholder="First Name *" value="" required/>
+                                    <input type="text" asp-for="first_name" class="form-control" placeholder="First Name *" />
+                                    <span asp-validation-for="first_name" class="text-danger"></span>
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" name="LastName" id="LastName" class="form-control" placeholder="Last Name *" value="" required/>
+                                    <input type="text" asp-for="last_name" class="form-control" placeholder="Last Name *" />
+                                    <span asp-validation-for="last_name" class="text-danger"></span>
                                 </div>
 
                                 <div class="form-group">
                                     <div class="maxl">
                                         <label class="radio inline">
-                                            <input type="radio" name="Gender" value="male" checked>
+                                            <input type="radio" name="gender" value="male" checked>
                                             <span> Male </span>
                                         </label>
                                         <label class="radio inline">
-                                            <input type="radio" name="Gender" value="female">
+                                            <input type="radio" name="gender" value="female">
                                             <span>Female </span>
                                         </label>
                                     </div>
@@ -52,13 +56,16 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="email" name="Email" id="Email" class="form-control" placeholder="Your Email *" value="" required/>
+                                    <input asp-for="email" class="form-control" placeholder="Your Email *"  />
+                                    <span asp-validation-for="email" class="text-danger"></span>
                                 </div>
                                 <div class="form-group">
-                                    <input type="password" name="Password" id="Password" class="form-control" placeholder="Password *" value="" required/>
+                                    <input asp-for="password" class="form-control" placeholder="password *"  />
+                                    <span asp-validation-for="password" class="text-danger"></span>
                                 </div>
                                 <div class="form-group">
-                                    <input type="password" name="ConfirmPassword" id="ConfirmPassword" class="form-control" placeholder="Confirm Password *" value="" required/>
+                                    <input asp-for="confirm_password" class="form-control" placeholder="Confirm Password *"/>
+                                    <span asp-validation-for="confirm_password" class="text-danger"></span>
                                 </div>
                                 @*<div class="form-group">
                                         <input type="text" minlength="10" maxlength="10" name="txtEmpPhone" class="form-control" placeholder="Your Phone *" value="" />
@@ -83,26 +90,26 @@
                         <div class="row register-form">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" name="AddressLine1" id="AddressLine1" class="form-control" placeholder="Address Line 1" value="" />
+                                    <input type="text" name="address_line1" id="address_line1" class="form-control" placeholder="Address Line 1" />
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" name="AddressLine2" id="AddressLine2" class="form-control" placeholder="Address Line 2" value="" />
+                                    <input type="text" name="address_line2" id="address_line2" class="form-control" placeholder="Address Line 2" />
                                 </div>
                                 <div class="form-group">
-                                    <input type="number" name="PhoneNumber" id="PhoneNumber" maxlength="10" minlength="10" class="form-control" placeholder="Phone Number" value="" />
+                                    <input type="number" name="phone_number" id="phone_number" maxlength="10" minlength="10" class="form-control" placeholder="Phone Number"  />
                                 </div>
 
 
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" name="City" id="City" class="form-control" placeholder="City" value="" />
+                                    <input type="text" name="city" id="city" class="form-control" placeholder="City" />
                                 </div>
                                 <div class="form-group">
-                                    <input type="password" name="State" id="State" class="form-control" placeholder="State" value="" />
+                                    <input type="password" name="state" id="state" class="form-control" placeholder="State"  />
                                 </div>
                                 <div class="form-group">
-                                    <input type="password" name="Country" id="Country" class="form-control" placeholder="Country" value="" />
+                                    <input type="password" name="country" id="country" class="form-control" placeholder="Country"  />
                                 </div>
                                 @*<div class="form-group">
                                         <select class="form-control">

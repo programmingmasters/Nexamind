@@ -62,7 +62,6 @@ F:\Nexamind\Nexamind\obj\Debug\netcoreapp2.2\Razor\Views\Home\Questions.g.cshtml
 F:\Nexamind\Nexamind\obj\Debug\netcoreapp2.2\Razor\Views\Utility\NexamindToggleSwitch.g.cshtml.cs
 F:\Nexamind\Nexamind\obj\Debug\netcoreapp2.2\Razor\Views\Home\Settings.g.cshtml.cs
 F:\Nexamind\Nexamind\obj\Debug\netcoreapp2.2\Nexamind.csprojAssemblyReference.cache
-F:\Nexamind\Nexamind\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LayoutAccount.g.cshtml.cs
 F:\Nexamind\Nexamind\obj\Debug\netcoreapp2.2\Razor\Views\Account\Login.g.cshtml.cs
 D:\Nexamind\Nexamind\obj\Debug\netcoreapp2.2\Razor\Views\Home\Questions.g.cshtml.cs
 D:\Nexamind\Nexamind\obj\Debug\netcoreapp2.2\Razor\Views\Home\Settings.g.cshtml.cs
@@ -78,3 +77,12 @@ D:\Nexamind\Nexamind\bin\Debug\netcoreapp2.2\Nexamind.Data.pdb
 D:\Nexamind\Nexamind\bin\Debug\netcoreapp2.2\Nexamind.ViewModel.pdb
 D:\Nexamind\Nexamind\obj\Debug\netcoreapp2.2\Razor\Views\Account\Register.g.cshtml.cs
 D:\Nexamind\Nexamind\obj\Debug\netcoreapp2.2\Razor\Views\Settings\Index.g.cshtml.cs
+F:\Nexamind\Nexamind\bin\Debug\netcoreapp2.2\Nexamind.BO.dll
+F:\Nexamind\Nexamind\bin\Debug\netcoreapp2.2\Nexamind.Data.dll
+F:\Nexamind\Nexamind\bin\Debug\netcoreapp2.2\Nexamind.ViewModel.dll
+F:\Nexamind\Nexamind\bin\Debug\netcoreapp2.2\Nexamind.BO.pdb
+F:\Nexamind\Nexamind\bin\Debug\netcoreapp2.2\Nexamind.Data.pdb
+F:\Nexamind\Nexamind\bin\Debug\netcoreapp2.2\Nexamind.ViewModel.pdb
+F:\Nexamind\Nexamind\obj\Debug\netcoreapp2.2\Razor\Views\Account\Register.g.cshtml.cs
+F:\Nexamind\Nexamind\obj\Debug\netcoreapp2.2\Razor\Views\Settings\Index.g.cshtml.cs
+F:\Nexamind\Nexamind\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_AccountLayout.g.cshtml.cs

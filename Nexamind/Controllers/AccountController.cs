@@ -26,41 +26,50 @@ namespace Nexamind.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Login(LoginViewModel loginModel)
+        public async Task<IActionResult> Login([Bind("Email", "Password")] LoginViewModel loginModel)
         {
             try
             {
-               
-                var User = await _userRepository.GetUser(loginModel.Email);
-
-                //check if user exists.
-                if (User == null)
+                if (ModelState.IsValid)
                 {
-                    loginModel.Message = "Account not found.";
-                    return View(loginModel);
-                }
+                    var User = await _userRepository.GetUser(loginModel.Email.Trim());
 
-                //check if user account is active.
-                if (!User.is_active)
-                {
-                    loginModel.Message = "Account is not Active, Please Register Again!";
-                    return View();
-                }
+                    //check if user exists.
+                    if (User == null)
+                    {
+                        loginModel.Message = "Account not found.";
+                        return View(loginModel);
+                    }
 
-                //check if password is correct.
-                if (User.password == loginModel.Password)
-                {
+                    //check if user account is active.
+                    if (!User.is_active)
+                    {
+                        loginModel.Message = "Account is not Active, Please Register Again!";
+                        return View(loginModel);
+                    }
+
+                    //check if password is correct.
+                    if (User.password != loginModel.Password)
+                    {
+                        loginModel.Message = "Incorrect Password!\n Please try again";
+                        return View(loginModel);
+                    }
                     loginModel.Message = "Login Successful!";
-                    return RedirectToAction("Index", "Home", User);
+                    TempData["useremail"] = User.email;
+                    return RedirectToAction("Index", "Home");
                 }
+
+                return View(loginModel);
+               
+                
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return View( StatusCode(StatusCodes.Status500InternalServerError));
             }
             
 
-            return View(StatusCode(StatusCodes.Status500InternalServerError));
+            //return View(StatusCode(StatusCodes.Status500InternalServerError));
         }
 
 

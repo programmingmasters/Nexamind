@@ -7,3 +7,12 @@ D:\Nexamind\Nexamind.Core\obj\Debug\netstandard2.0\Nexamind.Core.AssemblyInfoInp
 D:\Nexamind\Nexamind.Core\obj\Debug\netstandard2.0\Nexamind.Core.AssemblyInfo.cs
 D:\Nexamind\Nexamind.Core\obj\Debug\netstandard2.0\Nexamind.Core.dll
 D:\Nexamind\Nexamind.Core\obj\Debug\netstandard2.0\Nexamind.Core.pdb
+F:\Nexamind\Nexamind.Core\bin\Debug\netstandard2.0\Nexamind.Core.deps.json
+F:\Nexamind\Nexamind.Core\bin\Debug\netstandard2.0\Nexamind.Core.dll
+F:\Nexamind\Nexamind.Core\bin\Debug\netstandard2.0\Nexamind.Core.pdb
+F:\Nexamind\Nexamind.Core\obj\Debug\netstandard2.0\Nexamind.Core.csprojAssemblyReference.cache
+F:\Nexamind\Nexamind.Core\obj\Debug\netstandard2.0\Nexamind.Core.csproj.CoreCompileInputs.cache
+F:\Nexamind\Nexamind.Core\obj\Debug\netstandard2.0\Nexamind.Core.AssemblyInfoInputs.cache
+F:\Nexamind\Nexamind.Core\obj\Debug\netstandard2.0\Nexamind.Core.AssemblyInfo.cs
+F:\Nexamind\Nexamind.Core\obj\Debug\netstandard2.0\Nexamind.Core.dll
+F:\Nexamind\Nexamind.Core\obj\Debug\netstandard2.0\Nexamind.Core.pdb

@@ -16,11 +16,13 @@
                       <form asp-controller="Account" asp-action="Login" method="post">
                           <div class="form-group">
                               <label for="usr">Username:</label>
-                              <input type="text" class="form-control" id="Email" name="Email" required>
+                              <input asp-for="Email" type="text" class="form-control" id="Email" name="Email">
+                              <span asp-validation-for="Email" class="text-danger"></span>
                           </div>
                           <div class="form-group">
                               <label for="pwd">Password:</label>
-                              <input type="password" class="form-control" id="Password" name="Password" required>
+                              <input asp-for="Password" type="password" class="form-control" id="Password" name="Password">
+                              <span asp-validation-for="Password" class="text-danger"></span>
                           </div>
                           <div class="text-center">
                               <button type="submit" class="btn btn-primary btn-block">Login</button>

@@ -10,3 +10,15 @@ D:\Nexamind\Nexamind.BO\obj\Debug\netstandard2.0\Nexamind.BO.AssemblyInfo.cs
 D:\Nexamind\Nexamind.BO\obj\Debug\netstandard2.0\Nexamind.BO.csproj.CopyComplete
 D:\Nexamind\Nexamind.BO\obj\Debug\netstandard2.0\Nexamind.BO.dll
 D:\Nexamind\Nexamind.BO\obj\Debug\netstandard2.0\Nexamind.BO.pdb
+F:\Nexamind\Nexamind.BO\bin\Debug\netstandard2.0\Nexamind.BO.deps.json
+F:\Nexamind\Nexamind.BO\bin\Debug\netstandard2.0\Nexamind.BO.dll
+F:\Nexamind\Nexamind.BO\bin\Debug\netstandard2.0\Nexamind.BO.pdb
+F:\Nexamind\Nexamind.BO\bin\Debug\netstandard2.0\Nexamind.Data.dll
+F:\Nexamind\Nexamind.BO\bin\Debug\netstandard2.0\Nexamind.Data.pdb
+F:\Nexamind\Nexamind.BO\obj\Debug\netstandard2.0\Nexamind.BO.csprojAssemblyReference.cache
+F:\Nexamind\Nexamind.BO\obj\Debug\netstandard2.0\Nexamind.BO.csproj.CoreCompileInputs.cache
+F:\Nexamind\Nexamind.BO\obj\Debug\netstandard2.0\Nexamind.BO.AssemblyInfoInputs.cache
+F:\Nexamind\Nexamind.BO\obj\Debug\netstandard2.0\Nexamind.BO.AssemblyInfo.cs
+F:\Nexamind\Nexamind.BO\obj\Debug\netstandard2.0\Nexamind.BO.csproj.CopyComplete
+F:\Nexamind\Nexamind.BO\obj\Debug\netstandard2.0\Nexamind.BO.dll
+F:\Nexamind\Nexamind.BO\obj\Debug\netstandard2.0\Nexamind.BO.pdb

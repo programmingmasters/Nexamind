@@ -38,6 +38,14 @@ namespace Nexamind.Data.Models
 
         public string country { get; set; }
 
+        public int wallet { get; set; }
+
+        public int total_reward { get; set; }
+
+        public bool is_pro { get; set; }
+
+        public DateTime pro_activated_date { get; set; }
+
         public DateTime created_date { get; set; }
        
         public ObjectId created_by { get; set; }

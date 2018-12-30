@@ -36,7 +36,10 @@ namespace Nexamind
             });
             //services.AddAutoMapper();
 
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2)
+                .AddSessionStateTempDataProvider();
+
+            services.AddSession();
             
             // Register the Swagger generator, defining 1 or more Swagger documents
             services.AddSwaggerGen(c =>
@@ -82,6 +85,7 @@ namespace Nexamind
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
 
             });
+            app.UseSession();
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
