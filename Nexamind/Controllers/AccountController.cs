@@ -26,7 +26,7 @@ namespace Nexamind.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Login([Bind("Email", "Password")] LoginViewModel loginModel)
+        public async Task<IActionResult> Login(LoginViewModel loginModel)
         {
             try
             {
@@ -78,22 +78,27 @@ namespace Nexamind.Controllers
             return View();
         }
 
+        [AcceptVerbs("Get", "Post")]
+        public async Task<IActionResult> ValidateEmail(string email)
+       { 
+            var user = await _userRepository.GetUser(email.Trim());
+            if (user != null)
+            {
+                return Json($"{user.email} already exists.\n Please Provide another Email.");
+            }
+            return Json(true);
+        }
+
         [HttpPost]
         public async Task<IActionResult> Register(RegisterViewModel registerModel)
         {
             if (ModelState.IsValid)
             {
-                //var user = await _userRepository.GetUser(registerModel.Email);
-                //if (user != null)
-                //{
-                //    registerModel.Message = $"{registerModel.Email} already exists.\n Please Provide another Email.";
-                //    return View(registerModel);
-                //}
-                
                 var user = Mapper.Map<User>(registerModel);
                 await _userRepository.Create(user);
                 return RedirectToAction("Login","Account");
             }
+            
             return View();
         }
         

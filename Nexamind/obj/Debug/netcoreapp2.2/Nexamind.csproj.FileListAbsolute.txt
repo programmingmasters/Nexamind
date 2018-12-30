@@ -86,3 +86,4 @@ F:\Nexamind\Nexamind\bin\Debug\netcoreapp2.2\Nexamind.ViewModel.pdb
 F:\Nexamind\Nexamind\obj\Debug\netcoreapp2.2\Razor\Views\Account\Register.g.cshtml.cs
 F:\Nexamind\Nexamind\obj\Debug\netcoreapp2.2\Razor\Views\Settings\Index.g.cshtml.cs
 F:\Nexamind\Nexamind\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_AccountLayout.g.cshtml.cs
+F:\Nexamind\Nexamind\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_DialogModal.g.cshtml.cs

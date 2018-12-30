@@ -8,13 +8,13 @@ namespace Nexamind.ViewModel.UserViewModel
     public class LoginViewModel: BaseModel
     {
         [DataType(DataType.EmailAddress)]
-        [StringLength(64,MinimumLength =3)]
         [Required]
+        [Display(Name = "Email")]
         public string Email { get; set; }
 
         [DataType(DataType.Password)]
-        [RegularExpression("^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\\$%\\^&\\*])(?=.{8,})")]
         [Required]
+        [Display(Name ="Password")]
         public string Password { get; set; }
     }
 }

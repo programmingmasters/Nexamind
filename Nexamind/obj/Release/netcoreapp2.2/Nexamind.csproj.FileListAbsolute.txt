@@ -86,3 +86,4 @@ F:\Nexamind\Nexamind\obj\Release\netcoreapp2.2\Razor\Views\Account\Login.g.cshtm
 F:\Nexamind\Nexamind\obj\Release\netcoreapp2.2\Razor\Views\Account\Register.g.cshtml.cs
 F:\Nexamind\Nexamind\obj\Release\netcoreapp2.2\Razor\Views\Settings\Index.g.cshtml.cs
 F:\Nexamind\Nexamind\obj\Release\netcoreapp2.2\Razor\Views\Shared\_AccountLayout.g.cshtml.cs
+F:\Nexamind\Nexamind\obj\Release\netcoreapp2.2\Razor\Views\Shared\_DialogModal.g.cshtml.cs

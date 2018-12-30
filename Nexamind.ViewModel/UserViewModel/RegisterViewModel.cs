@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Nexamind.ViewModel.UserViewModel
 {
@@ -15,13 +16,17 @@ namespace Nexamind.ViewModel.UserViewModel
         [Required]
         [Display(Name = "First Name")]
         public string first_name { get; set; }
+
         [Display(Name = "Last Name")]
         public string last_name { get; set; }
+
         [Required]
         public string gender { get; set; }
+
         [Required]
         [Display(Name = "Email")]
         [DataType(DataType.EmailAddress)]
+        [Remote(action: "ValidateEmail", controller:"Account")]
         public string email { get; set; }
 
         [Required]
@@ -39,12 +44,15 @@ namespace Nexamind.ViewModel.UserViewModel
 
         [DataType(DataType.PhoneNumber)]
         public string phone_number { get; set; }
+
         [DataType(DataType.Text)]
         public string address_line1 { get; set; }
+
         [DataType(DataType.Text)]
         public string address_line2 { get; set; }
 
         public string city { get; set; }
+
         [DataType(DataType.PostalCode)]
         public string zip_code { get; set; }
 
