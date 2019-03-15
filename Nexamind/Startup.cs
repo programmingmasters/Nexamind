@@ -10,6 +10,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Nexamind.BO.QuestionRepository;
 using Nexamind.BO.UserRepository;
 using Nexamind.Data;
 using Swashbuckle.AspNetCore.Swagger;
@@ -59,6 +60,7 @@ namespace Nexamind
 
             services.AddTransient<INexamindDBContext, NexamindDBContext>();
             services.AddTransient<IUserRepository, UserRepository>();
+            services.AddTransient<IQuestionRepository, QuestionRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

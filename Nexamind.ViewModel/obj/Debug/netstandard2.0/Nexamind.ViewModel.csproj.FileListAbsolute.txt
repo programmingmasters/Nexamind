@@ -22,3 +22,15 @@ F:\Nexamind\Nexamind.ViewModel\obj\Debug\netstandard2.0\Nexamind.ViewModel.Assem
 F:\Nexamind\Nexamind.ViewModel\obj\Debug\netstandard2.0\Nexamind.ViewModel.csproj.CopyComplete
 F:\Nexamind\Nexamind.ViewModel\obj\Debug\netstandard2.0\Nexamind.ViewModel.dll
 F:\Nexamind\Nexamind.ViewModel\obj\Debug\netstandard2.0\Nexamind.ViewModel.pdb
+D:\Nexamind-master\Nexamind.ViewModel\bin\Debug\netstandard2.0\Nexamind.ViewModel.deps.json
+D:\Nexamind-master\Nexamind.ViewModel\bin\Debug\netstandard2.0\Nexamind.ViewModel.dll
+D:\Nexamind-master\Nexamind.ViewModel\bin\Debug\netstandard2.0\Nexamind.ViewModel.pdb
+D:\Nexamind-master\Nexamind.ViewModel\bin\Debug\netstandard2.0\Nexamind.Data.dll
+D:\Nexamind-master\Nexamind.ViewModel\bin\Debug\netstandard2.0\Nexamind.Data.pdb
+D:\Nexamind-master\Nexamind.ViewModel\obj\Debug\netstandard2.0\Nexamind.ViewModel.csprojAssemblyReference.cache
+D:\Nexamind-master\Nexamind.ViewModel\obj\Debug\netstandard2.0\Nexamind.ViewModel.csproj.CoreCompileInputs.cache
+D:\Nexamind-master\Nexamind.ViewModel\obj\Debug\netstandard2.0\Nexamind.ViewModel.AssemblyInfoInputs.cache
+D:\Nexamind-master\Nexamind.ViewModel\obj\Debug\netstandard2.0\Nexamind.ViewModel.AssemblyInfo.cs
+D:\Nexamind-master\Nexamind.ViewModel\obj\Debug\netstandard2.0\Nexamind.ViewModel.csproj.CopyComplete
+D:\Nexamind-master\Nexamind.ViewModel\obj\Debug\netstandard2.0\Nexamind.ViewModel.dll
+D:\Nexamind-master\Nexamind.ViewModel\obj\Debug\netstandard2.0\Nexamind.ViewModel.pdb

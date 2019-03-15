@@ -16,3 +16,12 @@ F:\Nexamind\Nexamind.Data\obj\Release\netstandard2.0\Nexamind.Data.AssemblyInfoI
 F:\Nexamind\Nexamind.Data\obj\Release\netstandard2.0\Nexamind.Data.AssemblyInfo.cs
 F:\Nexamind\Nexamind.Data\obj\Release\netstandard2.0\Nexamind.Data.dll
 F:\Nexamind\Nexamind.Data\obj\Release\netstandard2.0\Nexamind.Data.pdb
+D:\Nexamind-master\Nexamind.Data\bin\Release\netstandard2.0\Nexamind.Data.deps.json
+D:\Nexamind-master\Nexamind.Data\bin\Release\netstandard2.0\Nexamind.Data.dll
+D:\Nexamind-master\Nexamind.Data\bin\Release\netstandard2.0\Nexamind.Data.pdb
+D:\Nexamind-master\Nexamind.Data\obj\Release\netstandard2.0\Nexamind.Data.csprojAssemblyReference.cache
+D:\Nexamind-master\Nexamind.Data\obj\Release\netstandard2.0\Nexamind.Data.csproj.CoreCompileInputs.cache
+D:\Nexamind-master\Nexamind.Data\obj\Release\netstandard2.0\Nexamind.Data.AssemblyInfoInputs.cache
+D:\Nexamind-master\Nexamind.Data\obj\Release\netstandard2.0\Nexamind.Data.AssemblyInfo.cs
+D:\Nexamind-master\Nexamind.Data\obj\Release\netstandard2.0\Nexamind.Data.dll
+D:\Nexamind-master\Nexamind.Data\obj\Release\netstandard2.0\Nexamind.Data.pdb

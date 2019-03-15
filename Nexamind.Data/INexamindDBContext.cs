@@ -9,5 +9,7 @@ namespace Nexamind.Data
     public interface INexamindDBContext
     {
         IMongoCollection<User> users{ get; }
+
+        IMongoCollection<Question> questions { get; }
     }
 }

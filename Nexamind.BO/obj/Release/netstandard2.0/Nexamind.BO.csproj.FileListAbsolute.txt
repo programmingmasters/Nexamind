@@ -22,3 +22,15 @@ F:\Nexamind\Nexamind.BO\obj\Release\netstandard2.0\Nexamind.BO.AssemblyInfo.cs
 F:\Nexamind\Nexamind.BO\obj\Release\netstandard2.0\Nexamind.BO.csproj.CopyComplete
 F:\Nexamind\Nexamind.BO\obj\Release\netstandard2.0\Nexamind.BO.dll
 F:\Nexamind\Nexamind.BO\obj\Release\netstandard2.0\Nexamind.BO.pdb
+D:\Nexamind-master\Nexamind.BO\bin\Release\netstandard2.0\Nexamind.BO.deps.json
+D:\Nexamind-master\Nexamind.BO\bin\Release\netstandard2.0\Nexamind.BO.dll
+D:\Nexamind-master\Nexamind.BO\bin\Release\netstandard2.0\Nexamind.BO.pdb
+D:\Nexamind-master\Nexamind.BO\bin\Release\netstandard2.0\Nexamind.Data.dll
+D:\Nexamind-master\Nexamind.BO\bin\Release\netstandard2.0\Nexamind.Data.pdb
+D:\Nexamind-master\Nexamind.BO\obj\Release\netstandard2.0\Nexamind.BO.csprojAssemblyReference.cache
+D:\Nexamind-master\Nexamind.BO\obj\Release\netstandard2.0\Nexamind.BO.csproj.CoreCompileInputs.cache
+D:\Nexamind-master\Nexamind.BO\obj\Release\netstandard2.0\Nexamind.BO.AssemblyInfoInputs.cache
+D:\Nexamind-master\Nexamind.BO\obj\Release\netstandard2.0\Nexamind.BO.AssemblyInfo.cs
+D:\Nexamind-master\Nexamind.BO\obj\Release\netstandard2.0\Nexamind.BO.csproj.CopyComplete
+D:\Nexamind-master\Nexamind.BO\obj\Release\netstandard2.0\Nexamind.BO.dll
+D:\Nexamind-master\Nexamind.BO\obj\Release\netstandard2.0\Nexamind.BO.pdb

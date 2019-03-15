@@ -21,5 +21,8 @@ namespace Nexamind.Data
         //To store the detail of a user
         public IMongoCollection<User> users => _db.GetCollection<User>("users");
 
+        //To store the question and answers
+        public IMongoCollection<Question> questions => _db.GetCollection<Question>("questions");
+
     }
 }

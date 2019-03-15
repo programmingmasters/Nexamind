@@ -4,14 +4,18 @@
     ViewData["Title"] = "Home Page";
 }
 
+@section Styles{
+    <link href="~/css/PlayIcon.css" rel="stylesheet" />
+}
+
 
 <nav class="navbar-expand-sm bg-dark navbar-dark fixed-bottom">
     <ul class="row nav nav-tabs" role="tablist">
         <li class="nav-item col text-center">
-            <a class="nav-link active" data-toggle="tab" href="#play"><i class="fa fa-play" aria-hidden="true"></i></a>
+            <a class="nav-link" data-toggle="tab" href="#play"><i class="fa fa-play" aria-hidden="true"></i></a>
         </li>
         <li class="nav-item col text-center">
-            <a class="nav-link" data-toggle="tab" href="#profile"><i class="fa fa-user" aria-hidden="true"></i></a>
+            <a class="nav-link active" data-toggle="tab" href="#profile"><i class="fa fa-user" aria-hidden="true"></i></a>
         </li>
         <li class="nav-item col text-center">
             <a class="nav-link" data-toggle="tab" href="#leaderboard"><i class="fas fa-award" aria-hidden="true"></i></a>
@@ -25,6 +29,11 @@
 <div class="tab-content">
     <div id="play" class="container tab-pane fade">
         <h2 class="text-white">PLAY</h2>
+        <a id="play-video" class="video-play-button" href="/Game/Index">
+            <span></span>
+        </a>
+
+
     </div>
 
     <div id="profile" class="container tab-pane fade">
@@ -93,21 +102,21 @@
                                     </div>
                                 </div>
                                 @*<div class="row">
-                                    <div class="col-md-6">
-                                        <label>Name</label>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <p>@Model.Profile.first_name&nbsp;@Model.Profile.last_name</p>
-                                    </div>
-                                </div>*@
+                                        <div class="col-md-6">
+                                            <label>Name</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>@Model.Profile.first_name&nbsp;@Model.Profile.last_name</p>
+                                        </div>
+                                    </div>*@
                                 @*<div class="row">
-                                    <div class="col-md-6">
-                                        <label>Email</label>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <p>@Model.Profile.email</p>
-                                    </div>
-                                </div>*@
+                                        <div class="col-md-6">
+                                            <label>Email</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>@Model.Profile.email</p>
+                                        </div>
+                                    </div>*@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <label>Phone</label>
@@ -215,3 +224,6 @@
     </div>
 </div>
 
+@section Scripts{
+    <script src="~/js/PlayIcon.js"></script>
+}
