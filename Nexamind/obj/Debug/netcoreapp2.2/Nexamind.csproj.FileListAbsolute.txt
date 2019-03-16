@@ -133,3 +133,4 @@ D:\Nexamind-master\Nexamind\obj\Debug\netcoreapp2.2\Nexamind.csproj.CopyComplete
 D:\Nexamind-master\Nexamind\obj\Debug\netcoreapp2.2\Nexamind.dll
 D:\Nexamind-master\Nexamind\obj\Debug\netcoreapp2.2\Nexamind.pdb
 D:\Nexamind-master\Nexamind\obj\Debug\netcoreapp2.2\Razor\Views\Game\Index.g.cshtml.cs
+D:\Nexamind-master\Nexamind\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Components\Game\Default.g.cshtml.cs
