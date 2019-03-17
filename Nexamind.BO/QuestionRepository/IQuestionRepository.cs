@@ -10,7 +10,7 @@ namespace Nexamind.BO.QuestionRepository
     {
         Task<IEnumerable<Question>> GetAllQuestions();
 
-        Task<Question> GetQuestion(string uniqueIdentity);
+        Task<Question> GetQuestion(int uniqueIdentity);
 
         Task Create(Question question);
 

@@ -11,5 +11,7 @@ namespace Nexamind.Data
         IMongoCollection<User> users{ get; }
 
         IMongoCollection<Question> questions { get; }
+
+
     }
 }

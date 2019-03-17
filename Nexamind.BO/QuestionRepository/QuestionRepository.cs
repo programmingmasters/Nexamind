@@ -25,9 +25,9 @@ namespace Nexamind.BO.QuestionRepository
 
 
         //to get the detail of a single user
-        public Task<Question> GetQuestion(string uniqueIdentity)
+        public Task<Question> GetQuestion(int uniqueIdentity)
         {
-            FilterDefinition<Question> filter = Builders<Question>.Filter.Eq(m => m.question, uniqueIdentity);
+            FilterDefinition<Question> filter = Builders<Question>.Filter.Eq(m => m.order, uniqueIdentity);
 
             return _context.questions.Find(filter).FirstOrDefaultAsync();
         }

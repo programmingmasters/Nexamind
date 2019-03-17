@@ -25,3 +25,12 @@ D:\Nexamind-master\Nexamind.Data\obj\Release\netstandard2.0\Nexamind.Data.Assemb
 D:\Nexamind-master\Nexamind.Data\obj\Release\netstandard2.0\Nexamind.Data.AssemblyInfo.cs
 D:\Nexamind-master\Nexamind.Data\obj\Release\netstandard2.0\Nexamind.Data.dll
 D:\Nexamind-master\Nexamind.Data\obj\Release\netstandard2.0\Nexamind.Data.pdb
+F:\ASPNET\Nexamind\Nexamind.Data\bin\Release\netstandard2.0\Nexamind.Data.deps.json
+F:\ASPNET\Nexamind\Nexamind.Data\bin\Release\netstandard2.0\Nexamind.Data.dll
+F:\ASPNET\Nexamind\Nexamind.Data\bin\Release\netstandard2.0\Nexamind.Data.pdb
+F:\ASPNET\Nexamind\Nexamind.Data\obj\Release\netstandard2.0\Nexamind.Data.csprojAssemblyReference.cache
+F:\ASPNET\Nexamind\Nexamind.Data\obj\Release\netstandard2.0\Nexamind.Data.csproj.CoreCompileInputs.cache
+F:\ASPNET\Nexamind\Nexamind.Data\obj\Release\netstandard2.0\Nexamind.Data.AssemblyInfoInputs.cache
+F:\ASPNET\Nexamind\Nexamind.Data\obj\Release\netstandard2.0\Nexamind.Data.AssemblyInfo.cs
+F:\ASPNET\Nexamind\Nexamind.Data\obj\Release\netstandard2.0\Nexamind.Data.dll
+F:\ASPNET\Nexamind\Nexamind.Data\obj\Release\netstandard2.0\Nexamind.Data.pdb

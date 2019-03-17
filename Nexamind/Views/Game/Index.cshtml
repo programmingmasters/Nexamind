@@ -1,9 +1,61 @@
-﻿
+﻿@model Nexamind.ViewModel.QuestionViewModel.GameQuestionViewModel
+
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Index</h1>
+<div id="accordion">
+    <div class="card">
+        <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Question 1
+                </button>
+            </h5>
+        </div>
 
-@await Component.InvokeAsync("Game")
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+                @Model.Question
+            </div>
+        </div>
+    </div>
+</div>
+<form asp-action="Index" asp-controller="Game" method="post">
+    @Html.AntiForgeryToken()
+    <div class="container jumbotron">
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <input type="radio" asp-for="answer" value="option1" /><label>OPtion 1</label>
+                <div>@Model.Option1</div>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <input type="radio" asp-for="answer" value="option2" /><label>OPtion 2</label>
+                <div>@Model.Option2</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <input type="radio" asp-for="answer" value="option3" /><label>OPtion 3</label>
+                <div>@Model.Option3</div>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <input type="radio" asp-for="answer" value="option4" /><label>OPtion 4</label>
+                <div>@Model.Option4</div>
+            </div>
+        </div>
+
+
+    </div>
+</form>
+@*@await Component.InvokeAsync("Game")*@
+
+<div class="row fixed-bottom mb-5">
+    <div class="col-6 text-right">
+        <a href="/Home/Index" class="btn btn-light">Back</a>
+    </div>
+    <div class="col-6 text-left">
+        <button class="btn btn-dark" type="submit">Next</button>
+    </div>
+</div>

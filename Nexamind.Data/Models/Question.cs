@@ -11,6 +11,10 @@ namespace Nexamind.Data.Models
         [BsonId]
         public ObjectId _id { get; set; }
 
+        public int level { get; set; }
+
+        public DateTime Date { get; set; }
+
         public string option1 { get; set; }
 
         public string option2 { get; set; }

@@ -38,6 +38,8 @@ namespace Nexamind.Data.Models
 
         public string country { get; set; }
 
+        public List<Result> result { get; set; }
+
         public int wallet { get; set; }
 
         public int total_reward { get; set; }
@@ -55,5 +57,6 @@ namespace Nexamind.Data.Models
         public ObjectId modified_by { get; set; }
 
         public bool is_active { get; set; }
+
     }
 }

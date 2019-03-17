@@ -24,5 +24,7 @@ namespace Nexamind.Data
         //To store the question and answers
         public IMongoCollection<Question> questions => _db.GetCollection<Question>("questions");
 
+
+
     }
 }

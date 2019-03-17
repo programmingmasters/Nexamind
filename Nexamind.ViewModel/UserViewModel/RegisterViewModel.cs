@@ -37,7 +37,7 @@ namespace Nexamind.ViewModel.UserViewModel
         [Required]
         [Display(Name = "Confirm Password")]
         [DataType(DataType.Password)]
-        [Compare("password",ErrorMessage = "Email Mismatch")]
+        [Compare("password")]
         public string confirm_password { get; set; }
 
         public string country_dialing_code { get; set; }

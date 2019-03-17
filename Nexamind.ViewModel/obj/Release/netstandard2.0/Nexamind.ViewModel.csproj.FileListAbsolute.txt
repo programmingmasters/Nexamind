@@ -34,3 +34,15 @@ D:\Nexamind-master\Nexamind.ViewModel\obj\Release\netstandard2.0\Nexamind.ViewMo
 D:\Nexamind-master\Nexamind.ViewModel\obj\Release\netstandard2.0\Nexamind.ViewModel.csproj.CopyComplete
 D:\Nexamind-master\Nexamind.ViewModel\obj\Release\netstandard2.0\Nexamind.ViewModel.dll
 D:\Nexamind-master\Nexamind.ViewModel\obj\Release\netstandard2.0\Nexamind.ViewModel.pdb
+F:\ASPNET\Nexamind\Nexamind.ViewModel\bin\Release\netstandard2.0\Nexamind.ViewModel.deps.json
+F:\ASPNET\Nexamind\Nexamind.ViewModel\bin\Release\netstandard2.0\Nexamind.ViewModel.dll
+F:\ASPNET\Nexamind\Nexamind.ViewModel\bin\Release\netstandard2.0\Nexamind.ViewModel.pdb
+F:\ASPNET\Nexamind\Nexamind.ViewModel\bin\Release\netstandard2.0\Nexamind.Data.dll
+F:\ASPNET\Nexamind\Nexamind.ViewModel\bin\Release\netstandard2.0\Nexamind.Data.pdb
+F:\ASPNET\Nexamind\Nexamind.ViewModel\obj\Release\netstandard2.0\Nexamind.ViewModel.csprojAssemblyReference.cache
+F:\ASPNET\Nexamind\Nexamind.ViewModel\obj\Release\netstandard2.0\Nexamind.ViewModel.csproj.CoreCompileInputs.cache
+F:\ASPNET\Nexamind\Nexamind.ViewModel\obj\Release\netstandard2.0\Nexamind.ViewModel.AssemblyInfoInputs.cache
+F:\ASPNET\Nexamind\Nexamind.ViewModel\obj\Release\netstandard2.0\Nexamind.ViewModel.AssemblyInfo.cs
+F:\ASPNET\Nexamind\Nexamind.ViewModel\obj\Release\netstandard2.0\Nexamind.ViewModel.csproj.CopyComplete
+F:\ASPNET\Nexamind\Nexamind.ViewModel\obj\Release\netstandard2.0\Nexamind.ViewModel.dll
+F:\ASPNET\Nexamind\Nexamind.ViewModel\obj\Release\netstandard2.0\Nexamind.ViewModel.pdb
